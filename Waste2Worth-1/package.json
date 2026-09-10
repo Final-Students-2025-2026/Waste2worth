@@ -1,0 +1,34 @@
+{
+  "name": "waste2worth-mobile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start -c",
+    "tunnel": "expo start --tunnel -c",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@supabase/supabase-js": "^2.48.1",
+    "expo": "~54.0.0",
+    "expo-asset": "~11.1.7",
+    "expo-camera": "~17.0.10",
+    "expo-font": "~14.0.0",
+    "expo-linear-gradient": "~14.1.5",
+    "expo-status-bar": "~2.2.0",
+    "lucide-react-native": "^0.395.0",
+    "react": "19.1.0",
+    "react-native": "0.81.0",
+    "react-native-maps": "1.20.1",
+    "react-native-svg": "13.14.1",
+    "react-native-url-polyfill": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "babel-preset-expo": "~54.0.0",
+    "@expo/ngrok": "^4.1.0"
+  },
+  "private": true
+}

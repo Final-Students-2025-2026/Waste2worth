@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Waste2Worth",
+    "slug": "waste2worth-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "backgroundColor": "#090d10"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
